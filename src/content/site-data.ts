@@ -6,15 +6,18 @@ export interface NavSection {
   rubricImage: string;
 }
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+const withBasePath = (path: string): string => `${basePath}${path}`;
+
 export const inputImages = {
-  architecture: "/images/input/hero-architecture.png",
-  courtInterior: "/images/input/court-interior.png",
-  liveMatch: "/images/input/live-match.png",
-  duoAction: "/images/input/duo-action.png",
-  racketCloseup: "/images/input/racket-closeup.png",
-  neonMainCourtBackground: "/images/input/neon-main-court-background.png",
-  federationLogo: "/images/input/federation-logo-tver.png",
-  federationLogoMark: "/images/input/federation-logo-mark.png",
+  architecture: withBasePath("/images/input/hero-architecture.png"),
+  courtInterior: withBasePath("/images/input/court-interior.png"),
+  liveMatch: withBasePath("/images/input/live-match.png"),
+  duoAction: withBasePath("/images/input/duo-action.png"),
+  racketCloseup: withBasePath("/images/input/racket-closeup.png"),
+  neonMainCourtBackground: withBasePath("/images/input/neon-main-court-background.png"),
+  federationLogo: withBasePath("/images/input/federation-logo-tver.png"),
+  federationLogoMark: withBasePath("/images/input/federation-logo-mark.png"),
 } as const;
 
 export const navSections: NavSection[] = [
