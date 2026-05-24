@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1A402E"/>
+      <stop offset="1" stop-color="#438A68"/>
+    </linearGradient>
+    <radialGradient id="g2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1248 198) rotate(120) scale(960 495.00000000000006)">
+      <stop stop-color="#F2CF95" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#F2CF95" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" rx="36" fill="url(#g1)"/>
+  <rect x="80" y="72" width="1440" height="756" rx="28" fill="white" fill-opacity="0.045"/>
+  <circle cx="1264" cy="216" r="171" fill="url(#g2)"/>
+  <path d="M 160 666 C 400 495.00000000000006, 640 810, 927.9999999999999 630 C 1104 522, 1328 666, 1488 522" stroke="#F2CF95" stroke-opacity="0.85" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="480" cy="306" r="54" fill="#F2CF95" fill-opacity="0.92"/>
+  <rect x="768" y="180" width="128" height="396" rx="18" transform="rotate(20 832 378)" fill="white" fill-opacity="0.28"/>
+</svg>

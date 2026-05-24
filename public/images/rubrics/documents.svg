@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="620" viewBox="0 0 900 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="900" y2="620" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#234734"/>
+      <stop offset="1" stop-color="#4D9572"/>
+    </linearGradient>
+    <radialGradient id="g2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(702 136.4) rotate(120) scale(540 341)">
+      <stop stop-color="#E7BE7C" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#E7BE7C" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="620" rx="36" fill="url(#g1)"/>
+  <rect x="45" y="49.6" width="810" height="520.8" rx="28" fill="white" fill-opacity="0.045"/>
+  <circle cx="711" cy="148.79999999999998" r="117.8" fill="url(#g2)"/>
+  <path d="M 90 458.8 C 225 341, 360 558, 522 434 C 621 359.59999999999997, 747 458.8, 837 359.59999999999997" stroke="#E7BE7C" stroke-opacity="0.85" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="270" cy="210.8" r="37.199999999999996" fill="#E7BE7C" fill-opacity="0.92"/>
+  <rect x="432" y="124" width="72" height="272.8" rx="18" transform="rotate(20 468 260.4)" fill="white" fill-opacity="0.28"/>
+</svg>
